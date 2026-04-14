@@ -18,7 +18,7 @@ public class Student extends Actor
         
         if(Greenfoot.mouseClicked(null))
         {
-            setLocation(100,200);
+            setLocation(getX()-50,200);
         }
     }
 }
