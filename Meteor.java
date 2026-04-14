@@ -16,5 +16,15 @@ public class Meteor extends Actor
     {
         setRotation(270);
         move(-5);
+        
+        if(getY() >= 390)
+        {
+            resetMeteor();
+        }
+    }
+    
+    public void resetMeteor()
+    {
+        setLocation(250, 20);
     }
 }
