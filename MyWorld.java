@@ -6,5 +6,8 @@ public class MyWorld extends World {
         
         Student ada = new Student();
         addObject(ada, 100, 200);
+        
+        Meteor m1 = new Meteor();
+        addObject(m1, 250, 20);
     }
 }
