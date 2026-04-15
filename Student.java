@@ -14,7 +14,7 @@ public class Student extends Actor
      */
     public void act()
     {
-        move(2);
+        move(3);
         
         if(Greenfoot.mouseClicked(null))
         {
