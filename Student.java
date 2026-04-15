@@ -20,5 +20,10 @@ public class Student extends Actor
         {
             setLocation(getX()-50,200);
         }
+        
+        if(getX() >= 590)
+        {
+            setLocation(100, 200);
+        }
     }
 }

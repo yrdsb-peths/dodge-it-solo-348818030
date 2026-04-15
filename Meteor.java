@@ -25,6 +25,6 @@ public class Meteor extends Actor
     
     public void resetMeteor()
     {
-        setLocation(250, 20);
+        setLocation(300, 20);
     }
 }

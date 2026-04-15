@@ -8,6 +8,6 @@ public class MyWorld extends World {
         addObject(ada, 100, 200);
         
         Meteor m1 = new Meteor();
-        addObject(m1, 250, 20);
+        addObject(m1, 300, 20);
     }
 }
