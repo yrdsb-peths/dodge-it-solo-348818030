@@ -21,6 +21,13 @@ public class Meteor extends Actor
         {
             resetMeteor();
         }
+        
+        if(isTouching(Student.class))
+        {
+            Skull skull = new Skull();
+            getWorld().addObject(skull, 300, 200);
+            getWorld().removeObject(this);
+        }
     }
     
     public void resetMeteor()
