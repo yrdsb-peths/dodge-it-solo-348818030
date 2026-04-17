@@ -24,8 +24,12 @@ public class Meteor extends Actor
         
         if(isTouching(Student.class))
         {
+            
+            End_screen screenEnd = new End_screen();
+            getWorld().addObject(screenEnd, 300, 200);
             Skull skull = new Skull();
             getWorld().addObject(skull, 300, 200);
+            
             getWorld().removeObject(this);
         }
     }

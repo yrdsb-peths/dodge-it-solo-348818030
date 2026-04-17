@@ -15,5 +15,12 @@ public class End_screen extends Actor
     public void act()
     {
         // Add your action code here.
+        
+        GreenfootImage image = getImage();
+        if(image.getWidth() < 590 || image.getHeight() < 390)
+        {
+            image.scale(image.getWidth() + 10, image.getHeight() + 5);
+            setImage(image);
+        }
     }
 }
